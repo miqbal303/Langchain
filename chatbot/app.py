@@ -1,9 +1,9 @@
 import os
 import streamlit as st
 from dotenv import load_dotenv
-from langchain_google_genai import ChatGoogleGenerativeAI  # Ensure the correct import
-from langchain.prompts import ChatPromptTemplate  # Correct import for ChatPromptTemplate
-from langchain_core.output_parsers import StrOutputParser  # Correct import for StrOutputParser
+from langchain_google_genai import ChatGoogleGenerativeAI 
+from langchain.prompts import ChatPromptTemplate  
+from langchain_core.output_parsers import StrOutputParser  
 
 
 # load the environment
